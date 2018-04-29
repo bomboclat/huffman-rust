@@ -1,10 +1,25 @@
 # huffman-rust
-My first Rust simple project.
-To compile the binary:
+Huffman-rust is a simple application of huffman code **lossless compression** logic written in Rust.
+
+Installation
+------------
+To compile the binary you must have installed Cargo and Rust compiler:
 ```console
 $ git clone https://github.com/bomboclat/huffman-rust.git
 $ cd huffman-rust
 $ cargo build --release
 ```
-You can compress and decompress text file.
-It was based on the Huffman coding logic.
+
+Usage
+------
+To compress:
+```console
+$ huffman_compression -p file.txt
+```
+
+To decompress:
+```console
+$ huffman_compression -u file.txt.comp
+```
+
+`.comp` is the extension of compressed files.
