@@ -14,12 +14,12 @@ Usage
 ------
 To compress:
 ```console
-$ huffman_compression -p file.txt
+$ huffman_compression -p /path/to/file.txt
 ```
 
 To decompress:
 ```console
-$ huffman_compression -u file.txt.comp
+$ huffman_compression -u /path/to/file.txt.comp
 ```
 
 `.comp` is the extension of compressed files.
